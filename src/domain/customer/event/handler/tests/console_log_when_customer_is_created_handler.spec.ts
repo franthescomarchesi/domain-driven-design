@@ -1,9 +1,7 @@
 import CustomerCreatedEvent from "../../customer_created_event";
-import ConsoleLogWhenCustomerIsCreatedHandler from "../segundo_console_log_when_customer_is_created_hadler";
 import EventDispatcher from "../../../../shared/event/event_dispatcher";
 import PrimeiroConsoleLogWhenCustomerIsCreatedHandler from "../primeiro_console_log_when_customer_is_created_hadler copy";
 import SegundoConsoleLogWhenCustomerIsCreatedHandler from "../segundo_console_log_when_customer_is_created_hadler";
-import Customer from "../../../entity/customer";
 
 describe("Console log when customer is created handler tests", () => {
 
